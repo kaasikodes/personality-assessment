@@ -1,21 +1,19 @@
 {
-  "eslintConfig": {
-    "extends": ["react-app", "react-app/jest", "prettier"],
-    "rules": {
-      "eqeqeq": "error",
-      "max-lines": [
-        1,
-        {
-          "max": 200
-        }
-      ],
+  "extends": ["react-app", "react-app/jest", "prettier"],
+  "rules": {
+    "eqeqeq": "error",
+    "max-lines": [
+      1,
+      {
+        "max": 200
+      }
+    ],
 
-      "max-params": [
-        1,
-        {
-          "max": 5
-        }
-      ]
-    }
+    "max-params": [
+      1,
+      {
+        "max": 5
+      }
+    ]
   }
 }
