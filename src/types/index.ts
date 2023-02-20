@@ -1,3 +1,9 @@
+export type TControl = {
+  handleNext: () => void;
+  handlePrev: () => void;
+  pagination: TPagination;
+  total: number;
+};
 export type TOption = {
   id: number;
   content: string;
@@ -25,4 +31,4 @@ export type TPagination = {
   limit: number;
 };
 
-export type TRequestState = 'loading' | 'error' | 'success';
+export type TRequestState = "loading" | "error" | "success";
