@@ -1,4 +1,6 @@
+import Layout from "components/layout";
 import { appRoutes } from "data/routes";
+import Home from "pages/home";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -9,12 +11,12 @@ import reportWebVitals from "./reportWebVitals";
 const router = createBrowserRouter([
   {
     path: appRoutes.index,
-    element: <div />, //this will be a layout component
+    element: <Layout />, //this will be a layout component
     errorElement: <div />,
     children: [
       {
         path: appRoutes.index,
-        element: <div />,
+        element: <Home />,
       },
       {
         path: appRoutes.start,
