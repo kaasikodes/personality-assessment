@@ -1,0 +1,118 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
+      "options": [
+        {
+          "id": 1,
+          "content": "Look at your watch every two minutes",
+          "extrovertValue": 2,
+          "introvertValue": 3
+        },
+        {
+          "id": 2,
+          "content": "Bubble with inner anger, but keep quiet",
+          "extrovertValue": 1,
+          "introvertValue": 4
+        },
+        {
+          "id": 3,
+          "content": "Explain to other equally impatient people in the room that the doctor is always running late",
+          "extrovertValue": 4,
+          "introvertValue": 1
+        },
+        {
+          "id": 4,
+          "content": "Complain in a loud voice, while tapping your foot impatiently",
+          "extrovertValue": 5,
+          "introvertValue": 0
+        }
+      ],
+      "choosenOption": {
+        "questionId": 1,
+        "optionId": 2,
+        "answer": {
+          "extrovertValue": 1,
+          "introvertValue": 4
+        }
+      }
+    },
+    {
+      "id": 2,
+      "content": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
+      "options": [
+        {
+          "id": 5,
+          "content": "Look at your watch every two minutes",
+          "extrovertValue": 2,
+          "introvertValue": 3
+        },
+        {
+          "id": 6,
+          "content": "Bubble with inner anger, but keep quiet",
+          "extrovertValue": 1,
+          "introvertValue": 4
+        },
+        {
+          "id": 7,
+          "content": "Explain to other equally impatient people in the room that the doctor is always running late",
+          "extrovertValue": 4,
+          "introvertValue": 1
+        },
+        {
+          "id": 8,
+          "content": "Complain in a loud voice, while tapping your foot impatiently",
+          "extrovertValue": 5,
+          "introvertValue": 0
+        }
+      ],
+      "choosenOption": {
+        "questionId": 2,
+        "optionId": 5,
+        "answer": {
+          "extrovertValue": 2,
+          "introvertValue": 3
+        }
+      }
+    },
+    {
+      "id": 3,
+      "content": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
+      "options": [
+        {
+          "id": 9,
+          "content": "Look at your watch every two minutes",
+          "extrovertValue": 2,
+          "introvertValue": 3
+        },
+        {
+          "id": 10,
+          "content": "Bubble with inner anger, but keep quiet",
+          "extrovertValue": 1,
+          "introvertValue": 4
+        },
+        {
+          "id": 11,
+          "content": "Explain to other equally impatient people in the room that the doctor is always running late",
+          "extrovertValue": 4,
+          "introvertValue": 1
+        },
+        {
+          "id": 12,
+          "content": "Complain in a loud voice, while tapping your foot impatiently",
+          "extrovertValue": 5,
+          "introvertValue": 0
+        }
+      ],
+      "choosenOption": {
+        "questionId": 3,
+        "optionId": 10,
+        "answer": {
+          "extrovertValue": 1,
+          "introvertValue": 4
+        }
+      }
+    }
+  ]
+}
