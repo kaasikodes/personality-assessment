@@ -8,6 +8,17 @@ describe("Home", () => {
     const comp = screen.getByText("Are you are an introvert or extrovert?");
     expect(comp).toBeVisible();
   });
+  test("Ensure that image is visible", () => {
+    render(<Home />);
+    const comp = screen.getByRole("img");
+    expect(comp).toBeVisible();
+  });
+  test("Ensure that image has its src and alt attribute set", () => {
+    render(<Home />);
+    const comp = screen.getByRole("img");
+    expect(comp).toHaveAttribute("src");
+    expect(comp).toHaveAttribute("alt");
+  });
   test("Render the proper paragraph", () => {
     render(<Home />);
 
