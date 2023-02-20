@@ -1,7 +1,9 @@
 import Layout from "components/layout";
 import { appRoutes } from "data/routes";
 import Assessment from "pages/assessment";
+import ErrorPage from "pages/error";
 import Home from "pages/home";
+import Result from "pages/result";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -13,7 +15,7 @@ const router = createBrowserRouter([
   {
     path: appRoutes.index,
     element: <Layout />, //this will be a layout component
-    errorElement: <div />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: appRoutes.index,
@@ -25,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: appRoutes.result,
-        element: <div />,
+        element: <Result />,
       },
     ],
   },
