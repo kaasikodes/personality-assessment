@@ -1,36 +1,34 @@
-import { TQuestion } from 'types';
+import { TQuestion } from "types";
 
 export const questions: TQuestion[] = [
   {
     id: 1,
-
     content:
-      'You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:',
+      "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
     options: [
       {
         id: 1,
-        content: 'Look at your watch every two minutes',
-        extrovertValue: 2,
-        introvertValue: 3,
-      },
-      {
-        id: 2,
-        content: 'Bubble with inner anger, but keep quiet',
+        content: "Don’t dare to interrupt them",
         extrovertValue: 1,
         introvertValue: 4,
       },
       {
+        id: 2,
+        content: "Bubble with inner anger, but keep quiet",
+        extrovertValue: 3,
+        introvertValue: 2,
+      },
+      {
         id: 3,
         content:
-          'Explain to other equally impatient people in the room that the doctor is always running late',
+          "Explain to other equally impatient people in the room that the doctor is always running late",
         extrovertValue: 4,
         introvertValue: 1,
       },
       {
         id: 4,
-
         content:
-          'Complain in a loud voice, while tapping your foot impatiently',
+          "Complain in a loud voice, while tapping your foot impatiently",
         extrovertValue: 5,
         introvertValue: 0,
       },
@@ -38,33 +36,31 @@ export const questions: TQuestion[] = [
   },
   {
     id: 2,
-
     content:
-      '___ been sitting in the doctor’s waiting room for more than 25 minutes. You:',
+      "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
     options: [
       {
         id: 5,
-        content: 'Look at your watch every two minutes',
+        content: "Encourage everyone",
         extrovertValue: 2,
         introvertValue: 3,
       },
       {
         id: 6,
-        content: 'Bubble with inner anger, but keep quiet',
+        content: "Bubble with inner anger, but keep quiet",
         extrovertValue: 1,
         introvertValue: 4,
       },
       {
         id: 7,
         content:
-          'Explain to other equally impatient people in the room that the doctor is always running late',
+          "Explain to other equally impatient people in the room that the doctor is always running late",
         extrovertValue: 4,
         introvertValue: 1,
       },
       {
         id: 8,
-        content:
-          'Complain in a loud voice, while tapping your foot impatiently',
+        content: "Badge into the office",
         extrovertValue: 5,
         introvertValue: 0,
       },
@@ -72,35 +68,96 @@ export const questions: TQuestion[] = [
   },
   {
     id: 3,
-
     content:
-      'You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:',
+      "You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You:",
     options: [
       {
         id: 9,
-        content: 'Look at your watch every two minutes',
+        content: "Look at your watch every two minutes",
         extrovertValue: 2,
         introvertValue: 3,
       },
       {
         id: 10,
-        content: 'Bubble with inner anger, but keep quiet',
+        content: "Don’t dare contradict them",
+        extrovertValue: 3,
+        introvertValue: 2,
+      },
+      {
+        id: 11,
+        content: "Defend your own point of view, tooth and nail",
+        extrovertValue: 5,
+        introvertValue: 0,
+      },
+      {
+        id: 12,
+        content: "Continuously interrupt your colleague",
+        extrovertValue: 1,
+        introvertValue: 4,
+      },
+    ],
+  },
+  {
+    id: 4,
+    content:
+      "During dinner parties at your home, you have a hard time with people who:",
+    options: [
+      {
+        id: 9,
+        content: "Ask you to tell a story in front of everyone else",
         extrovertValue: 1,
         introvertValue: 4,
       },
       {
-        id: 11,
-        content:
-          'Explain to other equally impatient people in the room that the doctor is always running late',
-        extrovertValue: 4,
-        introvertValue: 1,
+        id: 101,
+        content: "Hang around you all evening",
+        extrovertValue: 2,
+        introvertValue: 3,
       },
       {
-        id: 12,
-        content:
-          'Complain in a loud voice, while tapping your foot impatiently',
+        id: 11,
+        content: "Talk privately between themselves",
+        extrovertValue: 1,
+        introvertValue: 4,
+      },
+      {
+        id: 121,
+        content: "Always drag the conversation back to themselves",
         extrovertValue: 5,
         introvertValue: 0,
+      },
+    ],
+  },
+  {
+    id: 5,
+    content: "This morning, your agenda seems to be free. You:",
+    options: [
+      {
+        id: 9,
+        content: "Know that somebody will find a reason to come and bother you",
+        extrovertValue: 0,
+        introvertValue: 5,
+      },
+      {
+        id: 101,
+        content:
+          "Heave a sigh of relief and look forward to a day without stress",
+        extrovertValue: 1,
+        introvertValue: 4,
+      },
+      {
+        id: 1111,
+        content:
+          "Question your colleagues about a project that’s been worrying you",
+        extrovertValue: 3,
+        introvertValue: 2,
+      },
+      {
+        id: 121,
+        content:
+          "Pick up the phone and start filling up your agenda with meetings",
+        extrovertValue: 1,
+        introvertValue: 4,
       },
     ],
   },
