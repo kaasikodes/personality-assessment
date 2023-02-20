@@ -1,5 +1,5 @@
 import React from "react";
-import { ApartmentOutlined, QuestionCircleOutlined } from "@ant-design/icons";
+import { QuestionCircleOutlined } from "@ant-design/icons";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {

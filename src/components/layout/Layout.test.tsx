@@ -1,4 +1,3 @@
-import { appRoutes } from "data/routes";
 import { screen, render } from "test-utils";
 import Layout from "./Layout";
 
