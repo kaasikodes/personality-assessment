@@ -31,10 +31,10 @@
       ],
       "choosenOption": {
         "questionId": 1,
-        "optionId": 2,
+        "optionId": 4,
         "answer": {
-          "extrovertValue": 1,
-          "introvertValue": 4
+          "extrovertValue": 5,
+          "introvertValue": 0
         }
       }
     },
@@ -69,10 +69,10 @@
       ],
       "choosenOption": {
         "questionId": 2,
-        "optionId": 5,
+        "optionId": 7,
         "answer": {
-          "extrovertValue": 2,
-          "introvertValue": 3
+          "extrovertValue": 4,
+          "introvertValue": 1
         }
       }
     },
@@ -107,10 +107,10 @@
       ],
       "choosenOption": {
         "questionId": 3,
-        "optionId": 10,
+        "optionId": 12,
         "answer": {
-          "extrovertValue": 1,
-          "introvertValue": 4
+          "extrovertValue": 5,
+          "introvertValue": 0
         }
       }
     }
