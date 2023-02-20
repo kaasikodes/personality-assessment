@@ -1,13 +1,11 @@
 import { Button, Divider } from "antd";
 import PersonalityResult from "components/result/ResultSummary";
 import QuestionList from "components/question/QuestionList";
-
 import { appRoutes } from "data/routes";
-
 import useFetchQuestions from "hooks/useFetchQuestions/useFetchQuestions";
 import ErrorComp from "components/error";
 import Loader from "components/loader";
-// test 4 error , loading , n success status
+
 const Result = () => {
   const { data, reqState } = useFetchQuestions();
   const questionCount = data?.total;
