@@ -47,7 +47,7 @@ const Result = () => {
         <Divider />
 
         <div className="flex justify-center">
-          <Button href={appRoutes.index}>Restart</Button>
+          <Button href={appRoutes.index}>Go back home</Button>
         </div>
       </div>
     );
