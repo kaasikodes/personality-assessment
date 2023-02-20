@@ -10,6 +10,16 @@ The features of the application include:
 - An assessment that consists of a series of questions that will determine the individual's personality based on the answers selected
 - A result page where the individual will be able to see the result of the assessment (i.e Whether or not they are introverted or extriverted), as well as the questions and their answers to the assessment taken
 
+
+
+## Theory Behind Determining personality
+
+The concept behind determining wether person is introverted or extroverted is as follows:
+ - Each option in a question is indicative of how introverted or extroverted an individual is i.e introVal, & extroVal (these values are created in such a way that there sum is always 5)
+ - The sum of the values is always 5 to ensure that at the end of the assesment, the individual is either introverted or extroverted as 5 cannot be shared evenly
+ - Provided the sum of these 2 values are 5, the individual will always be one or the other but never both
+ - As a result of this constraint one value will always be greater than the other, and the greater value will determine the individual's personality
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -47,11 +57,3 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-
-## Theory Behind Determining personality
-
-The concept behind determining wether person is introverted or extroverted is as follows:
- - Each option in a question is indicative of how introverted or extroverted an individual is i.e introVal, & extroVal (these values are created in such a way that there sum is always 5)
- - The sum of the values is always 5 to ensure that at the end of the assesment, the individual is either introverted or extroverted as 5 cannot be shared evenly
- - Provided the sum of these 2 values are 5, the individual will always be one or the other but never both
- - As a result of this constraint one value will always be greater than the other, and the greater value will determine the individual's personality
