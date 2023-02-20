@@ -1,5 +1,6 @@
 import Layout from "components/layout";
 import { appRoutes } from "data/routes";
+import Assessment from "pages/assessment";
 import Home from "pages/home";
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: appRoutes.start,
-        element: <div />,
+        element: <Assessment />,
       },
       {
         path: appRoutes.result,
