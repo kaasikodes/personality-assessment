@@ -8,7 +8,7 @@ The features of the application include:
 
 - A landing page where the individual can begin the assessment
 - An assessment that consists of a series of questions that will determine the individual's personality based on the answers selected
-- A result page where the individual will be able to see the result of the assessment (i.e Whether or not they are introverted or extriverted), as well as the questions and their answers to the assessment taken
+- A result page where the individual will be able to see the result of the assessment (i.e Whether or not they are introverted or extroverted), as well as the questions and their answers to the assessment taken
 
 
 
