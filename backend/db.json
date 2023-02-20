@@ -28,15 +28,7 @@
           "extrovertValue": 5,
           "introvertValue": 0
         }
-      ],
-      "choosenOption": {
-        "questionId": 1,
-        "optionId": 4,
-        "answer": {
-          "extrovertValue": 5,
-          "introvertValue": 0
-        }
-      }
+      ]
     },
     {
       "id": 2,
@@ -66,15 +58,7 @@
           "extrovertValue": 5,
           "introvertValue": 0
         }
-      ],
-      "choosenOption": {
-        "questionId": 2,
-        "optionId": 7,
-        "answer": {
-          "extrovertValue": 4,
-          "introvertValue": 1
-        }
-      }
+      ]
     },
     {
       "id": 3,
@@ -104,15 +88,7 @@
           "extrovertValue": 1,
           "introvertValue": 4
         }
-      ],
-      "choosenOption": {
-        "questionId": 3,
-        "optionId": 10,
-        "answer": {
-          "extrovertValue": 3,
-          "introvertValue": 2
-        }
-      }
+      ]
     },
     {
       "id": 4,
@@ -142,15 +118,7 @@
           "extrovertValue": 5,
           "introvertValue": 0
         }
-      ],
-      "choosenOption": {
-        "questionId": 4,
-        "optionId": 11,
-        "answer": {
-          "extrovertValue": 1,
-          "introvertValue": 4
-        }
-      }
+      ]
     },
     {
       "id": 5,
@@ -180,15 +148,7 @@
           "extrovertValue": 1,
           "introvertValue": 4
         }
-      ],
-      "choosenOption": {
-        "questionId": 5,
-        "optionId": 1111,
-        "answer": {
-          "extrovertValue": 3,
-          "introvertValue": 2
-        }
-      }
+      ]
     }
   ]
 }
