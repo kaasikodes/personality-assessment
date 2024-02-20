@@ -63,4 +63,4 @@ jobs:
           app-name: 'admin-app-hcm-v3'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A2BFF2E7B0AB4292936A36A9DBAC3E60 }}
-          package: .
+          package: release.zip
